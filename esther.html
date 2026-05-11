@@ -1,0 +1,402 @@
+HTML
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Esther's Profile</title>
+
+    <style>
+
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body{
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            line-height: 1.7;
+            padding: 20px;
+        }
+
+        nav{
+            background-color: #004080;
+            padding: 15px;
+            text-align: center;
+            border-radius: 10px;
+            margin-bottom: 25px;
+        }
+
+        nav a{
+            color: white;
+            text-decoration: none;
+            margin: 0 10px;
+            font-weight: bold;
+        }
+
+        nav a:hover{
+            color: yellow;
+        }
+
+        .container{
+            max-width: 1000px;
+            margin: auto;
+            background-color: white;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+        }
+
+        h1{
+            color: #004080;
+            margin-top: 25px;
+            margin-bottom: 10px;
+            border-bottom: 2px solid #004080;
+            padding-bottom: 5px;
+        }
+
+        h2{
+            color: #004080;
+            margin-top: 10px;
+        }
+
+        h3{
+            margin-bottom: 10px;
+        }
+
+        p{
+            margin-bottom: 15px;
+        }
+
+        ol, ul{
+            margin-left: 30px;
+            margin-bottom: 15px;
+        }
+
+        li{
+            margin-bottom: 10px;
+        }
+
+        table{
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 15px;
+            margin-bottom: 25px;
+        }
+
+        table, th, td{
+            border: 1px solid #333;
+        }
+
+        th{
+            background-color: #004080;
+            color: white;
+            padding: 12px;
+        }
+
+        td{
+            padding: 10px;
+        }
+
+        .profile-container{
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .profile-image{
+            width: 230px;
+            height: 230px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 6px solid #004080;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+            margin-bottom: 15px;
+        }
+
+        .profile-title{
+            color: #666;
+            font-style: italic;
+        }
+
+        .youtube-logo{
+            width: 120px;
+            margin-top: 10px;
+        }
+
+        .youtube-logo:hover{
+            transform: scale(1.05);
+            transition: 0.3s;
+        }
+
+        hr{
+            margin: 25px 0;
+        }
+
+        footer{
+            background-color: #004080;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            border-radius: 10px;
+            margin-top: 20px;
+        }
+
+        footer a{
+            color: yellow;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        footer a:hover{
+            text-decoration: underline;
+        }
+
+        @media(max-width:768px){
+
+            nav a{
+                display: block;
+                margin: 10px 0;
+            }
+
+            .profile-image{
+                width: 180px;
+                height: 180px;
+            }
+
+            .container{
+                padding: 15px;
+            }
+
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <nav>
+        <a href="index.html">Home</a> |
+        <a href="contact.html">Contact</a> |
+        <a href="nasibu-yasin-said.html">Nasibu Said</a> |
+        <a href="profile2.html">Student 2</a> |
+        <a href="esther-mbise.html">Esther Mbise</a> |
+        <a href="profile4.html">Student 4</a>
+    </nav>
+
+    <div class="container">
+
+        <!-- Profile Section -->
+        <div class="profile-container">
+
+            <img src="Esther.jpg" alt="Esther's Profile Photo" class="profile-image">
+
+            <h2>Esther Ndekirwa Mbise</h2>
+
+            <p class="profile-title">
+                Bachelor of Science in Computer Science Student
+            </p>
+
+        </div>
+
+        <!-- Personal Information -->
+        <h1>Personal Information</h1>
+
+        <h3>Name: Esther Ndekirwa Mbise</h3>
+
+        <p>
+            I am a student at the University of Dar es Salaam pursuing a Bachelor of Science in Computer Science.
+            I expect to complete my degree in 2028. I am highly interested in technology,
+            especially data analysis, data management, and cybersecurity.
+        </p>
+
+        <p>
+            I look forward to integrating my knowledge and skills to provide services that positively impact society
+            both locally and globally.
+        </p>
+
+        <!-- Skills -->
+        <h1>Skills</h1>
+
+        <p>I am skilled in the following technology areas:</p>
+
+        <ol>
+
+            <li>
+                <strong>Graphics Designing</strong>
+
+                <p>
+                    I can design graphics that communicate specific messages effectively to the target audience.
+                </p>
+            </li>
+
+            <li>
+
+                <strong>Programming Languages</strong>
+
+                <ul>
+
+                    <li>
+                        <strong>HTML</strong>
+
+                        <p>
+                            I use HTML to create structured web pages and combine it with CSS
+                            to make websites attractive and responsive.
+                        </p>
+                    </li>
+
+                    <li>
+                        <strong>Python</strong>
+
+                        <p>
+                            Python is one of the programming languages I use for learning data analysis
+                            and management.
+                        </p>
+                    </li>
+
+                    <li>
+                        <strong>C Programming</strong>
+
+                        <p>
+                            I also have basic knowledge of the C programming language.
+                        </p>
+                    </li>
+
+                </ul>
+
+            </li>
+
+        </ol>
+
+        <!-- Education -->
+        <h1>Education</h1>
+
+        <table>
+
+            <tr>
+                <th>Level</th>
+                <th>School</th>
+                <th>Year</th>
+            </tr>
+
+            <tr>
+                <td>Undergraduate</td>
+                <td>University of Dar es Salaam (UDSM)</td>
+                <td>2025 - 2028</td>
+            </tr>
+
+            <tr>
+                <td>Advanced Level Secondary</td>
+                <td>Kilakala Secondary School</td>
+                <td>2023 - 2025</td>
+            </tr>
+
+            <tr>
+                <td>Ordinary Level Secondary</td>
+                <td>Henry Gogarty Girls Secondary School</td>
+                <td>2019 - 2022</td>
+            </tr>
+
+            <tr>
+                <td>Primary School</td>
+                <td>Valley View Primary School</td>
+                <td>2017 - 2018</td>
+            </tr>
+
+            <tr>
+                <td>Primary School</td>
+                <td>Nazarene Primary School</td>
+                <td>2012 - 2017</td>
+            </tr>
+
+        </table>
+
+        <!-- Hobbies -->
+        <h1>Hobbies and Interests</h1>
+
+        <ul>
+
+            <li>
+                <strong>Sports</strong>
+
+                <p>
+                    I enjoy participating in sports because they improve physical fitness and health.
+                </p>
+            </li>
+
+            <li>
+                <strong>Eating</strong>
+
+                <p>
+                    I enjoy tasting different kinds of food and snacks.
+                </p>
+            </li>
+
+            <li>
+                <strong>Listening to Music</strong>
+
+                <p>
+                    I enjoy listening to music because it brings peace and helps me reflect.
+                </p>
+            </li>
+
+            <li>
+                <strong>Singing</strong>
+
+                <p>
+                    Singing refreshes me mentally and spiritually and gives me positive energy.
+                </p>
+            </li>
+
+        </ul>
+
+        <!-- Favorite Links -->
+        <h1>Favorite Links</h1>
+
+        <ul>
+
+            <li>
+
+                <a href="https://www.youtube.com" target="_blank">
+
+                    <img 
+                        src="https://upload.wikimedia.org/wikipedia/commons/b/b8/YouTube_Logo_2017.svg"
+                        alt="YouTube Logo"
+                        class="youtube-logo">
+
+                </a>
+
+                <p>Visit YouTube for educational and entertainment content.</p>
+
+            </li>
+
+        </ul>
+
+        <hr>
+
+        <!-- Footer -->
+        <footer>
+
+            <p>
+                <em>
+                    This profile page is created by Esther Mbise —
+                    Student at the University of Dar es Salaam, 2025/26
+                </em>
+            </p>
+
+            <br>
+
+            <p>
+                <a href="index.html">Back to Home</a>
+            </p>
+
+        </footer>
+
+    </div>
+
+</body>
+
+</html>
